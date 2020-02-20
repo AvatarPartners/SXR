@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 24ec1cabb0d7d8f4db794e03b956c6f9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: flatbed_semi-trailer
+    100002: //RootNode
+    100004: tractor_unit_v3
+    100006: trailer_wheel_left_front
+    100008: trailer_wheel_left_rear
+    100010: trailer_wheel_right_front
+    100012: trailer_wheel_right_rear
+    100014: wheel_left_back
+    100016: wheel_left_front
+    100018: wheel_left_middle
+    100020: wheel_right_back
+    100022: wheel_right_front
+    100024: wheel_right_middle
+    400000: flatbed_semi-trailer
+    400002: //RootNode
+    400004: tractor_unit_v3
+    400006: trailer_wheel_left_front
+    400008: trailer_wheel_left_rear
+    400010: trailer_wheel_right_front
+    400012: trailer_wheel_right_rear
+    400014: wheel_left_back
+    400016: wheel_left_front
+    400018: wheel_left_middle
+    400020: wheel_right_back
+    400022: wheel_right_front
+    400024: wheel_right_middle
+    2100000: body_paint
+    2100002: cabin_interior
+    2100004: chrome
+    2100006: logo_red
+    2100008: windscreen_glass
+    2100010: chrome_steps
+    2100012: lights_reflector
+    2100014: lights_glass
+    2100016: turn_signal
+    2100018: mudguard
+    2100020: frame
+    2100022: wiper
+    2100024: backlights_black_ring
+    2100026: backlights_white
+    2100028: backlights_red
+    2100030: cabin_black
+    2100032: mirror
+    2100034: fenders
+    2100036: wheel_arc_grey
+    2100038: chrome_no_raytracing
+    2100040: filter_mesh
+    2100042: dark_material
+    2100044: wheel_rim_chrome
+    2100046: wheel_rubber_dusty
+    2100048: wheel_rubber
+    2100050: trailer_chrome
+    2100052: trailer_axle
+    2100054: trailer_lights_black_ring
+    2100056: trlr_lights
+    2100058: trailer_main_color
+    2100060: red
+    2100062: trailer_mud
+    2100064: wood
+    2100066: white
+    2100068: steel
+    2100070: 'Material #29'
+    2300000: flatbed_semi-trailer
+    2300002: tractor_unit_v3
+    2300004: trailer_wheel_left_front
+    2300006: trailer_wheel_left_rear
+    2300008: trailer_wheel_right_front
+    2300010: trailer_wheel_right_rear
+    2300012: wheel_left_back
+    2300014: wheel_left_front
+    2300016: wheel_left_middle
+    2300018: wheel_right_back
+    2300020: wheel_right_front
+    2300022: wheel_right_middle
+    3300000: flatbed_semi-trailer
+    3300002: tractor_unit_v3
+    3300004: trailer_wheel_left_front
+    3300006: trailer_wheel_left_rear
+    3300008: trailer_wheel_right_front
+    3300010: trailer_wheel_right_rear
+    3300012: wheel_left_back
+    3300014: wheel_left_front
+    3300016: wheel_left_middle
+    3300018: wheel_right_back
+    3300020: wheel_right_front
+    3300022: wheel_right_middle
+    4300000: tractor_unit_v3
+    4300002: wheel_left_middle
+    4300004: wheel_left_back
+    4300006: wheel_left_front
+    4300008: wheel_right_middle
+    4300010: wheel_right_back
+    4300012: wheel_right_front
+    4300014: trailer_wheel_right_front
+    4300016: trailer_wheel_left_front
+    4300018: trailer_wheel_right_rear
+    4300020: trailer_wheel_left_rear
+    4300022: flatbed_semi-trailer
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

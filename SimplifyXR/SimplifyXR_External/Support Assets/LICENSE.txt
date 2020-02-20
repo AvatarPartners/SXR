@@ -1,0 +1,306 @@
+-----------------------------------------------------------------------------
+		AVATAR PARTNERS SOFTWARE LICENSE AGREEMENT - SimplifyXR
+-----------------------------------------------------------------------------
+ 
+THIS SOFTWARE LICENSE AGREEMENT ("Agreement") is entered into between AVATAR 
+Partners ("AVATAR") having its primary office location at 7491 Talbert Ave, 
+Huntington Beach CA 92648, and the Licensee.
+
+Definitions
+"License" means a single copy of SimplifyXR for which the 
+Licensee may develop Augmented Reality, Mixed Reality and Extended Reality 
+software applications. 
+"Licensee" refers to the person who purchased a License to this single copy
+of SimplifyXR.
+"Designated Equipment" refers to the specific computer identified during the 
+installation process for SimplifyXR License, on which SimplifyXR is to run. 
+SimplifyXR will function SimplifyXR when AVATAR transmits a digital key to 
+Licensee to unlock the functionality of SimplifyXR. 
+"Derivative Works" means any software programs, and copies thereof, 
+developed by Licensee and which are based on or incorporate any part of 
+SimplifyXR delivered by AVATAR hereunder, including without limitation any 
+revision, modification, translation (including compilation or recapitulation 
+by computer), abridgment, condensation, expansion, or any other form in which 
+SimplifyXR may be recast, transformed or adapted, and that, if prepared 
+without AVATAR's authorization, would constitute a patent, copyright or trade 
+secret infringement of SimplifyXR. 
+"Executable Code" means the fully compiled version of a software program that 
+can be executed by a computer and used by an end-user without further 
+compilation. "Intellectual Property Rights" means all copyrights, trademarks, 
+service marks, trade secrets, patents, moral rights, contract rights, and 
+other proprietary rights under the laws of the United States and other 
+countries. 
+"Maintenance Services" means, collectively, the services to be provided by 
+AVATAR under Section 9 hereof. 
+"Maintenance Fees" means, collectively, the maintenance fees of SimplifyXR, 
+including the Initial Maintenance Fee and the Renewal Maintenance Fee. 
+"Statement of Work" means the AVATAR Statement of Work for SimplifyXR signed 
+by Licensee and pursuant to which Licensee ordered SimplifyXR from AVATAR. 
+The Statement of Work is hereby incorporated into this Agreement. 
+ 
+1. TERM OF LICENSE
+	1.1. The license term shall be for [ENTER # OF MONTHS] months 
+from the date of SimplifyXR installation. SimplifyXR installation shall be 
+completed within 30 days of the date of this fully executed Agreement, 
+rendering the expiration of the license to be up to [# OF MONTHS OF LICENSE 
+TERM PLUS 30 DAYS] months.
+	1.2. This license, and all of AVATAR's obligations hereunder, 
+	automatically terminate if Licensee fail to comply with any provision 
+	of this Agreement.   1.3. Upon the termination or expiration of this 
+	Agreement for any reason whatsoever 1.3.1. The use of the License granted 
+	hereunder shall immediately cease; and  1.3.2. Licensee shall immediately 
+	stop using SImplifyXR in any way and, within ten (10) days after the 
+	effective date of expiration or termination deliver to AVATAR, or certify 
+	that Licensee has destroyed, all copies of SimplifyXR. 
+2. GRANT OF LICENSE 
+	2.1. License to Use. Subject to these terms and conditions and those set 
+	forth on the Statement of Work, any applicable written amendments hereto, 
+	and Licensee’s obligation to pay the License Fees and/or Maintenance 
+	Fees, AVATAR grants to Licensee for the Term a nonexclusive and 
+	nontransferable license to install and use, solely for Licensee’s 
+	internal, in-house purposes, SimplifyXR on the designated system. 
+	License does not include the right to use SimplifyXR, or the software 
+	applications developed in SImplifyXR, to be used by separate divisions 
+	or third parties, or the right to permit any third parties or separate 
+	divisions access to SimplifyXR or the software applications developed in 
+	SimplifyXR, even if the division or third parties are affiliated with 
+	Licensee, unless Licensee purchases additional software licenses from 
+	AVATAR in a Statement of Work that permits such usage.  
+	2.2. Copies. Licensee shall have the right to use only one (1) copy or 
+	image of SimplifyXR for production purposes per production instance 
+	licensed on the Designated Equipment and shall not copy or use 
+	SimplifyXR for any other purpose except for archival purposes. Licensee 
+	may designate another computer as the Designated Equipment by providing 
+	written notice to AVATAR. Licensee may increase the number of licensed 
+	users and/or add products to the system configuration by executing a 
+	subsequent Statement of Work and paying the applicable fees. Upon 
+	signing the subsequent Statement of Work and paying in full the 
+	applicable fees, Licensee shall receive a new authorization key 
+	increasing the number of authorized users and/or updating the system 
+	configuration as set forth in the subsequent Statement of Work. 
+	2.3. Restrictions on Use. Licensee acknowledges that SimplifyXR and 
+	SimplifyXR’s code sequence, structure, and organization and source 
+	code constitute valuable trade secrets of AVATAR and its suppliers. 
+	Accordingly, Licensee agrees not to (a) modify, adapt, alter, translate, 
+	or create derivative works from SimplifyXR; (b) merge SimplifyXR with 
+	other software; (c) sublicense, lease, rent, loan, or otherwise transfer 
+	SimplifyXR to any third party, whether by operation or law or otherwise, 
+	(d) reverse engineer, decompile, disassemble, or otherwise attempt to 
+	derive the source code for SimplifyXR; or (e) use SimplifyXR and any 
+	developed application in connection with operation of a service bureau 
+	or for the benefit of any third party, or (f) otherwise use or copy 
+	SimplifyXR except as expressly allowed under Section 3(1) and 3(2) 
+	above. 
+3. MAINTENANCE SERVICES 
+	3.1. Licensee receives the following services as part of Maintenance 
+	Services 
+	3.1.1. In-version product updates including bug fixes, updates to 
+	support hardware, vision science and other third party products; 
+	3.1.2. 24 hour online help desk;  
+	3.1.3. basic training; 
+	3.1.4. installation and configuration support; 
+	3.1.5. email and phone support during regular business hours. 
+	3.1.6. Exclusions: Maintenance Services does not include technical 
+	support for applications developed by Licensee in SimplifyXR or other 
+	services as defined in Section 6, Implementation Services 
+4. OWNERSHIP 
+	4.1. SimplifyXR, and all worldwide Intellectual Property Rights therein, 
+	are the exclusive property of AVATAR and AVATAR’s suppliers. All right, 
+	title, and interest in and to SimplifyXR not expressly granted to Licensee 
+	in this Agreement are reserved by AVATAR and its suppliers. Nothing in 
+	this Agreement will be deemed to grant, by implication, estoppel or 
+	otherwise, a license under any of AVATAR’s existing or future trade 
+	secrets or patents; AVATAR agrees that it will not assert any of its 
+	rights under such patents against Licensee based upon the exercise by 
+	Licensee of the license granted in 6(7).  Licensee will not remove, 
+	alter, or obscure any proprietary notices (including copyright notices) 
+	of AVATAR or its suppliers on SimplifyXR or the Documentation. 
+5. IMPLEMENTATION SERVICES 
+	5.1. At the request of the Licensee, the Licensee may separately contract 
+	AVATAR for Implementation Services. This includes advanced troubleshooting, 
+	support developing a specific application, and advanced training/mentoring 
+	support.  
+6. LICENSE FEES, MAINTENANCE FEES AND PAYMENT 
+	6.1. Licensee agrees to pay AVATAR all amounts due hereunder as hereinafter 
+	set forth.  6.2. Current License Fee. Upon entering into this Agreement 
+	with AVATAR, the License and Maintenance fees are due and payable by 
+	Licensee. License and Maintenance Fees are required to be paid in order 
+	to use SimplifyXR. 
+	6.3. Renewal License Fee. Subject to Licensee’s option to continue the 
+	use of SimplifyXR, the Renewal License and Renewal Maintenance Fee shall 
+	be due and payable by Licensee to AVATAR on each applicable renewal date 
+	of this Agreement. 
+	6.4. The Renewal License Fee is the current annual list price of SimplifyXR 
+	for each twelve (12-month period).  
+	6.5. The Renewal Maintenance Fee is twenty percent (20%) of the current 
+	annual list price of SimplifyXR  
+	6.6. Fees shall be invoiced and due thirty (30) days prior to the 
+	renewal date.  
+	6.7. Unless explicitly set forth herein, all License Fees and 
+	Maintenance Fees are non-cancelable and non-refundable. Payments are 
+	due upon remittance of the invoice. Client agrees to pay interest on 
+	invoices past due of 2.8% per month. 
+7. TERMINATION 
+	7.1. AVATAR may terminate this Agreement, effective immediately upon 
+	written notice to Licensee, if: 
+		7.1.1. Licensee breaches any provision in Section 3;  
+		7.1.2. Licensee fails to pay any portion of the renewal license 
+		maintenance when due;  
+		7.1.3. Licensee is the subject of a voluntary or involuntary filing 
+		of a bankruptcy petition or similar proceeding under state law; or  
+		7.1.4. Licensee becomes insolvent or makes any assignment for the 
+		benefit of creditors. In addition, the non-breaching party may 
+		terminate this Agreement upon written notice if the other party 
+		materially breaches any other provision of this Agreement and does 
+		not cure the breach within thirty (30) days after receiving 
+		written notice thereof from the non-breaching party. 
+	7.2. Effects of Termination. Upon termination or expiration of this 
+	Agreement for any reason
+		7.2.1. Amounts owed to AVATAR under this Agreement before such 
+		termination or expiration will be immediately due and payable 
+		7.2.2. All licensed rights granted in this Agreement will 
+		immediately cease to exist; 
+		7.2.3. AVATAR’s obligation to provide Maintenance shall immediately 
+		cease; and 
+		7.2.4. Licensee must promptly discontinue all use of SimplifyXR and 
+		the software applications developed with the product, erase all 
+		copies of SimplifyXR and resultant software applications from 
+		Licensee’s computers, and return to AVATAR or destroy all copies 
+		of SimplifyXR, resultant software applications and documentation 
+		in Licensee’s possession or control and certify in writing to 
+		AVATAR that it has fully complied with these requirements. 
+		Sections 2(3), 4, 8, 9, 10, and 11 will survive expiration or 
+		earlier termination of this Agreement for any reason. 
+8. INDEMNIFICATION 
+	8.1. AVATAR will indemnify and hold harmless Licensee against claims 
+	that SimplifyXR infringes a valid copyright, U.S. patent, or trade secret. 
+	If AVATAR determines that SimplifyXR is likely to or if SimplifyXR is 
+	determined in a final, nonappealable judgement by a court of competent 
+	jurisdiction to infringe a U.S. copyright, patent, or trade secret, AVATAR 
+	will have the option, at AVATAR’s sole discretion, to elect one or more of the 
+	following: (a) replace such Licensed Software; (b) modify such Licensed 
+	Software to make it non-infringing; or (c) remove such Licensed Software 
+	and refund all license fees paid to AVATAR by Licensee for the license to 
+	such Licensed Software after deduction of an appropriate charge for 
+	depreciation over a five (5) year period based on Licensee’s usage prior 
+	to such removal. In no event shall Licensee settle any such claim without 
+	AVATAR’s express prior written approval. The right of indemnification set 
+	forth in this section only applies if: (i) Licensee provides AVATAR 
+	notice of such claim or cause of action upon which Licensee intends to 
+	base a claim of indemnification hereunder within thirty (30) days of the 
+	claim or cause of action; (ii) AVATAR is given sole control of the defense 
+	and all related settlement negotiations relating to such claim or action; 
+	(iii) Licensee provides reasonable assistance and cooperation to enable 
+	AVATAR to defend the action or claim hereunder; and (iv) the claim or 
+	cause of action is not based on either (A) changes or modifications to 
+	SimplifyXR made by Licensee or based upon the written specifications of 
+	Licensee, or (B) the combination of SimplifyXR with third-party hardware 
+	or software. This section states AVATAR’s entire liability and Licensee’s 
+	exclusive remedy for any claim of infringement. 
+9. LIMITATION OF LIABILITY 
+	9.1. In no event shall avatar be liable for any consequential, indirect, 
+	exemplary, special or incidental damages, including any lost data and 
+	lost budget, arising from or relating to this agreement. Avatar’s total 
+	cumulative liability in connection with this agreement and SimplifyXR, 
+	whether in contract or tort or otherwise, shall not exceed the amount of 
+	license fees paid to avatar and any amounts due but unpaid hereunder. 
+	Licensee acknowledges that the license fees reflect the allocation of 
+	risk set forth in this agreement and that avatar would not enter into 
+	this agreement without these limitations on its liability the foregoing 
+	exclusion/limitation of liability shall not apply  
+		9.1.1. To personal injury or death caused by avatar’s negligence;  
+		9.1.2. for fraud;  
+		9.1.3. for express remedies under the contract; Or 
+		9.1.4. for any other matter for which liability cannot be excluded by law. 
+10. CONFIDENTIALITY 
+	10.1. Licensee shall use reasonable efforts, which shall be no less 
+	stringent than those efforts that Licensee uses to protect its own 
+	software or other similar proprietary property or information, to prevent 
+	SimplifyXR or documentation from being used by any employee, agent, 
+	consultant or other person in any manner that would violate this Agreement. 
+	Licensee further agrees to use reasonable efforts to assist AVATAR in 
+	identifying and preventing any use or disclosure of the Executable Code 
+	or source code of SimplifyXR or Documentation or any of the ideas, 
+	algorithms, source code, or trade secrets contained therein. Without 
+	limiting the foregoing obligation, Licensee shall advise AVATAR 
+	immediately in the event that Licensee learns or has reason to believe 
+	that any person who has had access to SimplifyXR or any portion thereof, 
+	as a result of this Agreement, has violated or intends to violate the 
+	terms of this Agreement. AVATAR recognizes that Federal agencies are 
+	subject to the Freedom of Information Act, 5 U.S.C. 552, and that 
+	information that does not fall under certain exceptions must be 
+	released when requested despite being characterized as "confidential" 
+	by vendor.  Additionally, AVATAR recognizes that courts of competent 
+	jurisdiction may require certain information to be released. 
+11. GENERAL 
+	11.1. Compliance with Laws; Export Controls: Licensee will comply with 
+	all applicable export and import control laws and regulations in its 
+	use of SimplifyXR and, in particular Licensee will not export or export 
+	SimplifyXR without all required United States and foreign government 
+	licenses. Licensee will defend, indemnify and hold harmless AVATAR from 
+	and against any violation of such laws or regulations by Licensee or 
+	any of its agents, officers, directors, or employees. 
+	11.2. Assignments. Licensee may not assign or transfer, by operation 
+	of law or otherwise, any of its rights under this agreement to any 
+	third party without AVATAR’s prior written consent. Any attempted 
+	assignment or transfer in violation of the forgoing will be void. 
+	11.3. Notice. All notices under this Agreement must be delivered in 
+	writing by fax, by email, by commercially recognized delivery service 
+	or by certified mail to the other party at their respected addresses, 
+	and will be effective upon the earlier of receipt or when delivery is 
+	refused. The notice address for AVATAR Partners is 7491 Talbert Avenue, 
+	Huntington Beach CA, 92648 Attn: License Management Office. 
+	11.4. Governing Law and Venue. This Agreement will be governed by the 
+	laws of the State of California. Such laws apply to contracts between 
+	California residents performed entirely within California. Any action 
+	or proceeding arising from or relating to this Agreement must be brought 
+	exclusively to the Orange County Superior Court in Orange County, 
+	California and each party irrevocably submits to the jurisdiction and 
+	venue of any such court in any such action or proceeding. 
+	11.5. Remedies. Except as provided in Sections herein above, the 
+	parties’ rights and remedies under this Agreement are cumulative. 
+	Licensee acknowledges that SimplifyXR contains valuable trade secrets 
+	and proprietary information of AVATAR, that any actual or threatened 
+	breach of Section 3(c) will constitute immediate, irreparable harm to 
+	AVATAR for which monetary damages would be an inadequate remedy, and 
+	that injunctive relief is an appropriate remedy for such breach. If 
+	any legal action is brought to enforce this Agreement, the prevailing 
+	party will be entitled to receive its attorneys’ fees, court costs and 
+	other collection expenses, in addition to any other relief it may receive. 
+	11.6. Force Majeure. If AVATAR is unable to perform any of its 
+	obligations hereunder, or Licensee is unable to enjoy a benefit hereunder 
+	(including without limitation loss of or failure to provide any 
+	product(s) and/or service(s)), due to any event beyond the reasonable 
+	control of AVATAR, including without limitation weather and all other 
+	Acts of God, war, terrorism, fire, heat, cold, explosion, flood, power 
+	or telephone failures, acts or omissions of any government or agency 
+	thereof, compliance with requirements, orders, or regulations, labor 
+	difficulty, supplier failure or delay, civil disorder, or breakdown or 
+	malfunction of machinery or other equipment, then AVATAR's performance 
+	shall be excused for the pendency of such event, but AVATAR shall use 
+	its best efforts to limit the duration of any such delay. 
+	11.7. Waivers. All waivers must be in writing. Any waiver or failure 
+	to enforce any provision of this Agreement on one occasion will not be 
+	deemed a waiver of any other provision or of such provision on any other 
+	occasion. 
+	11.8. Severability. If any provision of this Agreement is unenforceable, 
+	such provision will be changed and interpreted to accomplish the 
+	objectives of such provision to the greatest extent possible under 
+	applicable law and the remaining provisions will continue in full force 
+	and effect. 
+	11.9. Entire Agreement. Each party acknowledges that it has read this 
+	Agreement, understands the terms contained herein, and agrees to be bound by the terms. 
+ 
+The parties further agree that the terms contained herein are the complete 
+and exclusive statement of the agreement between the parties which supersedes 
+all prior proposals, understandings, and all other agreements, oral and 
+written, between the parties relating to the subject matter of this 
+Agreement, including without limitation the terms of any Licensee request 
+for proposal or AVATAR’s response thereto. Licensee expressly agrees and 
+acknowledges that in determining to enter into this Agreement that Licensee 
+did not rely on any representation or warranty by anyone other than those 
+expressly set forth in this Agreement. This Agreement may not be modified or 
+altered except by written instrument duly executed by both parties. No 
+claim or action, regardless of form, arising out of this Agreement, other 
+than a claim or action relating to a breach of Section 13, may be brought
+by either party more than two (2) years after the cause of action has arisen.
