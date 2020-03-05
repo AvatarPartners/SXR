@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-#if USING_ARFOUNDATION
+#if USING_ARFOUNDATION && SIMPLIFYXR_ARFOUNDATION_PRESENT
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 #endif
@@ -26,45 +26,45 @@ namespace SimplifyXR
 
         static void SetVisionLibEditorExtensions()
         {
-            // #if USING_VISIONLIB
+#if USING_VISIONLIB
 
-            //             SimplifyXRAccessManager.Instance.SetVisionLibEditorExtensionBehavior(new VisionLibEditorExtensionBehavior());
+            SimplifyXRAccessManager.Instance.SetVisionLibEditorExtensionBehavior(new VisionLibEditorExtensionBehavior());
 
-            //             SimplifyXRPostprocessor.SimplifyXRVisionLibPresent = true;
-            //             SimplifyXRAccessManager.Instance.SetVisionLibExtensionBehavior(new VisionLibEditorDLLExtensionBehavior());
-            //             CheckVisionLibVersion();
-            // #else
+            SimplifyXRPostprocessor.SimplifyXRVisionLibPresent = true;
+            SimplifyXRAccessManager.Instance.SetVisionLibExtensionBehavior(new VisionLibEditorDLLExtensionBehavior());
+            CheckVisionLibVersion();
+#else
             SimplifyXRPostprocessor.SimplifyXRVisionLibPresent = false;
-            // #endif
+#endif
         }
 
         static void SetARFoundationEditorExtensions()
         {
-#if USING_ARFOUNDATION
+#if USING_ARFOUNDATION && SIMPLIFYXR_ARFOUNDATION_PRESENT
             SimplifyXRAccessManager.Instance.SetARFoundationEditorExtensionBehavior(new ARFoundationEditorExtensionBehavior());
 #endif
         }
 
         static void CheckVisionLibVersion()
         {
-            // #if USING_VISIONLIB
-            //             Version installedVisionLibVersion;
-            //             if (VLUnitySdk.GetVersionString(out string version))
-            //                 installedVisionLibVersion = new Version(version);
-            //             else
-            //                 installedVisionLibVersion = new Version(SimplifyXRAccessManager.Instance.GetSupportedVisionLibVersion());
+#if USING_VISIONLIB
+            Version installedVisionLibVersion;
+            if (VLUnitySdk.GetVersionString(out string version))
+                installedVisionLibVersion = new Version(version);
+            else
+                installedVisionLibVersion = new Version(SimplifyXRAccessManager.Instance.GetSupportedVisionLibVersion());
 
-            //             var supportedVisionLibVersion = new Version(SimplifyXRAccessManager.Instance.GetSupportedVisionLibVersion());
+            var supportedVisionLibVersion = new Version(SimplifyXRAccessManager.Instance.GetSupportedVisionLibVersion());
 
-            //             if (installedVisionLibVersion != null && supportedVisionLibVersion != null)
-            //             {
-            //                 var result = installedVisionLibVersion.CompareTo(supportedVisionLibVersion);
-            //                 if (result > 0)
-            //                     Debug.LogWarningFormat("WARNING: Your installed version ({0}) of VisionLib is ahead of the SimplifyXR supported version ({1}) of VisionLib", installedVisionLibVersion, supportedVisionLibVersion);
-            //                 else if (result < 0)
-            //                     Debug.LogWarningFormat("WARNING: Your installed version ({0}) of VisionLib is behind the SimplifyXR supported version ({1}) of VisionLib", installedVisionLibVersion, supportedVisionLibVersion);
-            //             }
-            // #endif
+            if (installedVisionLibVersion != null && supportedVisionLibVersion != null)
+            {
+                var result = installedVisionLibVersion.CompareTo(supportedVisionLibVersion);
+                if (result > 0)
+                    Debug.LogWarningFormat("WARNING: Your installed version ({0}) of VisionLib is ahead of the SimplifyXR supported version ({1}) of VisionLib", installedVisionLibVersion, supportedVisionLibVersion);
+                else if (result < 0)
+                    Debug.LogWarningFormat("WARNING: Your installed version ({0}) of VisionLib is behind the SimplifyXR supported version ({1}) of VisionLib", installedVisionLibVersion, supportedVisionLibVersion);
+            }
+#endif
         }
     }
 
@@ -73,76 +73,76 @@ namespace SimplifyXR
         #region IManageVisionLibEditorExtensions implementation
         public void ConfigureVLWorkerBehaviour(GameObject go, string visionLibLicenseFileName, string visionLibCameraCalFileName)
         {
-            // #if USING_VISIONLIB
-            //             if (go != null)
-            //             {
-            //                 var workerBehavior = go.GetComponent<VLWorkerBehaviour>();
-            //                 if (workerBehavior != null)
-            //                 {
-            //                     if (!string.IsNullOrEmpty(visionLibLicenseFileName))
-            //                         workerBehavior.licenseFile.path = visionLibLicenseFileName;
-            //                     if (!string.IsNullOrEmpty(visionLibCameraCalFileName))
-            //                         workerBehavior.calibrationDataBaseURI = "project_dir:/" + visionLibCameraCalFileName;
-            //                     workerBehavior.targetFPS = 30;
-            //                     return;
-            //                 }
-            //             }
-            //             Debug.LogError("Check the VLWorkerBehaviour on the VLHoloLensTracker or VLCamera prefab as there were issues configuring it.");
-            // #endif
+#if USING_VISIONLIB
+            if (go != null)
+            {
+                var workerBehavior = go.GetComponent<VLWorkerBehaviour>();
+                if (workerBehavior != null)
+                {
+                    if (!string.IsNullOrEmpty(visionLibLicenseFileName))
+                        workerBehavior.licenseFile.path = visionLibLicenseFileName;
+                    if (!string.IsNullOrEmpty(visionLibCameraCalFileName))
+                        workerBehavior.calibrationDataBaseURI = "project_dir:/" + visionLibCameraCalFileName;
+                    workerBehavior.targetFPS = 30;
+                    return;
+                }
+            }
+            Debug.LogError("Check the VLWorkerBehaviour on the VLHoloLensTracker or VLCamera prefab as there were issues configuring it.");
+#endif
         }
 
         public void ConfigureVLHololensTrackerBehaviour(GameObject go, GameObject contentHolder)
         {
-            // #if USING_VISIONLIB
-            //             if (go != null)
-            //             {
-            //                 var hololensStabilizationBehavior = go.GetComponent<VLHoloLensStabilizationPlaneBehaviour>();
-            //                 if (hololensStabilizationBehavior != null)
-            //                 {
-            //                     UnityEngine.Object.DestroyImmediate(hololensStabilizationBehavior);
-            //                 }
-            //                 var vLDetectScreenChange = go.GetComponent<VLDetectScreenChangeBehaviour>();
-            //                 if (vLDetectScreenChange != null)
-            //                 {
-            //                     UnityEngine.Object.DestroyImmediate(vLDetectScreenChange);
-            //                 }
-            //                 var hololensTrackerBehavior = go.GetComponent<VLHoloLensTrackerBehaviour>();
-            //                 if (hololensTrackerBehavior != null)
-            //                 {
-            //                     hololensTrackerBehavior.smoothTime = 0f;
-            //                     if (contentHolder != null)
-            //                     {
-            //                         hololensTrackerBehavior.content = contentHolder;
-            //                         return;
-            //                     }
-            //                 }
-            //             }
-            //             Debug.LogError("Check the VLHoloLensTracker prefab as there were issues configuring it.");
-            // #endif
+#if USING_VISIONLIB
+            if (go != null)
+            {
+                var hololensStabilizationBehavior = go.GetComponent<VLHoloLensStabilizationPlaneBehaviour>();
+                if (hololensStabilizationBehavior != null)
+                {
+                    UnityEngine.Object.DestroyImmediate(hololensStabilizationBehavior);
+                }
+                var vLDetectScreenChange = go.GetComponent<VLDetectScreenChangeBehaviour>();
+                if (vLDetectScreenChange != null)
+                {
+                    UnityEngine.Object.DestroyImmediate(vLDetectScreenChange);
+                }
+                var hololensTrackerBehavior = go.GetComponent<VLHoloLensTrackerBehaviour>();
+                if (hololensTrackerBehavior != null)
+                {
+                    hololensTrackerBehavior.smoothTime = 0f;
+                    if (contentHolder != null)
+                    {
+                        hololensTrackerBehavior.content = contentHolder;
+                        return;
+                    }
+                }
+            }
+            Debug.LogError("Check the VLHoloLensTracker prefab as there were issues configuring it.");
+#endif
         }
 
         public void ConfigureVLHololensInitCamera(GameObject go)
         {
-            // #if USING_VISIONLIB
-            //             if (go != null)
-            //             {
-            //                 var hololensInitCameraBehavior = go.GetComponent<VLHoloLensInitCameraBehaviour>();
-            //                 if (hololensInitCameraBehavior != null)
-            //                 {
-            //                     hololensInitCameraBehavior.keepUpright = true;
-            //                 }
-            //                 var cam = go.GetComponent<Camera>();
-            //                 if (cam != null)
-            //                 {
-            //                     cam.nearClipPlane = 0.3f;
-            //                     cam.farClipPlane = 100f;
-            //                     cam.fieldOfView = 16.5f;
-            //                     // cam.clearFlags = CameraClearFlags.Color;
-            //                 }
-            //                 return;
-            //             }
-            //             Debug.LogError("Check the VLHoloLensInitCamera prefab as there were issues configuring it.");
-            // #endif
+#if USING_VISIONLIB
+            if (go != null)
+            {
+                var hololensInitCameraBehavior = go.GetComponent<VLHoloLensInitCameraBehaviour>();
+                if (hololensInitCameraBehavior != null)
+                {
+                    hololensInitCameraBehavior.keepUpright = true;
+                }
+                var cam = go.GetComponent<Camera>();
+                if (cam != null)
+                {
+                    cam.nearClipPlane = 0.3f;
+                    cam.farClipPlane = 100f;
+                    cam.fieldOfView = 16.5f;
+                    // cam.clearFlags = CameraClearFlags.Color;
+                }
+                return;
+            }
+            Debug.LogError("Check the VLHoloLensInitCamera prefab as there were issues configuring it.");
+#endif
         }
         #endregion
     }
@@ -150,7 +150,7 @@ namespace SimplifyXR
     {
         public void AddARFoundationAdapterComponent(GameObject contentHolder, bool TrackAllTargetsInDatabase, string IndividualTargetToTrack, ScriptableObject imageDatabase, GameObject sessionOrigin, bool IsPlanar)
         {
-#if USING_ARFOUNDATION
+#if USING_ARFOUNDATION && SIMPLIFYXR_ARFOUNDATION_PRESENT
             if (IsPlanar)
             {
                 ARFoundationAdapterPlanes adapter = sessionOrigin.AddComponent<ARFoundationAdapterPlanes>();
@@ -192,14 +192,14 @@ namespace SimplifyXR
 
         public void CreateARSession()
         {
-#if USING_ARFOUNDATION
+#if USING_ARFOUNDATION && SIMPLIFYXR_ARFOUNDATION_PRESENT
             EditorApplication.ExecuteMenuItem("GameObject/XR/AR Session");
 #endif
         }
 
         public GameObject CreateARSessionOrigin(int targetType, ScriptableObject imageDatabase)
         {
-#if USING_ARFOUNDATION
+#if USING_ARFOUNDATION && SIMPLIFYXR_ARFOUNDATION_PRESENT
             EditorApplication.ExecuteMenuItem("GameObject/XR/AR Session Origin");
 
             GameObject sessionOrigin = GameObject.FindObjectOfType<ARSessionOrigin>().gameObject;
