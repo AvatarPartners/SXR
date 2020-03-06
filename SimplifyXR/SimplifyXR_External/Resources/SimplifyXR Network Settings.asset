@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -965827572, guid: 3306c982ebe8887469f47b8327295b8c, type: 3}
+  m_Name: SimplifyXR Network Settings
+  m_EditorClassIdentifier: 
+  APIDevLocation: https://apiad001.azurewebsites.net/
+  APPDevLocation: https://apiaw001.azurewebsites.net/
+  BlobDevLocation: https://impartdevcontent.blob.core.windows.net/bundles/
+  APITestLocation: 
+  APPTestLocation: 
+  BlobTestLocation: 
+  APIProdLocation: 
+  APPProdLocation: 
+  BlobProdLocation: 
+  TenantId: 51409528-6d9c-406e-8577-c525761a8a4e
+  ProdApplicationId: 
+  DevApplicationId: 467ff426-b3e1-4c83-8934-34b65b76bb5f
+  TestApplicationId: 
+  DevTargetLocation: https://apiad002.azurewebsites.net/
+  TestTargetLocation: 
+  ProdTargetLocation: 
+  Domains:
+  - '@simplifyxr.net'
