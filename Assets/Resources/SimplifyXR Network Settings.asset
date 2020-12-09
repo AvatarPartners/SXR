@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dbe3e1a8e10bc34eb32a584c4d3b1e9, type: 3}
+  m_Script: {fileID: -965827572, guid: 3306c982ebe8887469f47b8327295b8c, type: 3}
   m_Name: SimplifyXR Network Settings
   m_EditorClassIdentifier: 
   APIDevLocation: https://applicationservicesxr.azurewebsites.net/
