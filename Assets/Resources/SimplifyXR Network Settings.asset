@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -965827572, guid: 3306c982ebe8887469f47b8327295b8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5dbe3e1a8e10bc34eb32a584c4d3b1e9, type: 3}
   m_Name: SimplifyXR Network Settings
   m_EditorClassIdentifier: 
-  APIDevLocation: https://apiad001.azurewebsites.net/
-  APPDevLocation: https://apiaw001.azurewebsites.net/
+  APIDevLocation: https://applicationservicesxr.azurewebsites.net/
+  APPDevLocation: https://applicationservicesxr.azurewebsites.net/
   BlobDevLocation: https://impartdevcontent.blob.core.windows.net/bundles/
   APITestLocation: 
   APPTestLocation: 
@@ -23,9 +23,9 @@ MonoBehaviour:
   BlobProdLocation: 
   TenantId: 51409528-6d9c-406e-8577-c525761a8a4e
   ProdApplicationId: 
-  DevApplicationId: 467ff426-b3e1-4c83-8934-34b65b76bb5f
+  DevApplicationId: 453180a6-340f-4efb-b259-72d581c85e50
   TestApplicationId: 
-  DevTargetLocation: https://apiad002.azurewebsites.net/
+  DevTargetLocation: https://applicationservicesxr.azurewebsites.net/
   TestTargetLocation: 
   ProdTargetLocation: 
   Domains:
